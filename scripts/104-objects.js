@@ -17,7 +17,7 @@ let student1 = {
 student1.age
 
 console.log(student1.age);
-console.log(student1,name);
+console.log(student1.name);
 console.log(student1.isStudent);
 
 // Exercise: 
@@ -77,3 +77,17 @@ function Products(name, price){
 
 let products = new Products("Apple", 10)
 console.log(`The product is ${p.name}, and the price is ${p.price}.`);
+
+
+// concatenation
+
+String firstName = "John";
+String lastName = "Doe";
+
+// Concatenating with a space literal in between
+String fullName = firstName + " " + lastName; 
+System.out.println(fullName); // Output: John Doe
+
+// Concatenating text and integers
+String score = "Score: " + 10; 
+System.out.println(score); // Output: Score: 10
